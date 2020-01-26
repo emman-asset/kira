@@ -1,0 +1,88 @@
+@media (min-width: 721px) {
+    .hide-medium-large {
+        display: none !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .show-mobile-block {
+        display: block !important;
+    }
+
+    .header-search form .input {
+        width: calc(100% - 170px);
+        margin-right: -4px;
+        border-radius: 0 48px 48px 0;
+    }
+
+    .header-search form .search-btn {
+        height: 40px;
+        width: 100px;
+        background: #FF9900;
+        color: #1d1a1c;
+        font-weight: 700;
+        border: none;
+        border-radius: 48px;
+        display: block;
+        margin: 16px auto;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1199.98px) {
+    .show-tablet-block {
+        display: block !important;
+    }
+
+    .menu-toggler {
+        margin-top: 20px;
+    }
+}
+
+.nav-link:hover {
+    color: #FF9900 !important;
+}
+
+#responsive-nav .active {
+    border-bottom: #FF9900 solid 2px !important;
+}
+
+.bg-theme {
+    background: #FF9900;
+}
+
+footer h3, .text-theme {
+    color: #FF9900 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #FF9900 !important;
+}
+
+/*#app a {*/
+/*    color: #cc6810;*/
+/*}*/
+
+
+/**
+    Front page slides
+ */
+#front-slides .carousel-caption {
+    background: linear-gradient(rgba(83, 82, 82, 0.71), rgba(94, 94, 94, 0.71));
+}
+
+#header .dropdown-toggle::after {
+    color: white;
+}
+
+a.nav-link {
+    color: #fff;
+}
+
+.nav-link i {
+    color: #FF9900;
+}
+
+.site-title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 22px;
+}
